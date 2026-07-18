@@ -1,0 +1,5 @@
+print("Name:noor fatima")
+print("Age:17")
+print("City:karachi")
+print("class:9")
+print("Subject:computer science")
