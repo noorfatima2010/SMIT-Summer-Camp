@@ -1,0 +1,230 @@
+print("-----------------------------------------------------------------")
+print("             Q1 — Online Food Delivery System                    ")
+print("-----------------------------------------------------------------")
+
+foods = ["Burger", "Pizza", "Fries", "Broast", "Sandwich"]
+
+print(foods[0])
+print(foods[-1])
+foods[2] = "Pasta"
+print(foods)
+foods.append("Zinger")
+print(foods)
+foods.insert(1, "Shawarma")
+print(foods)
+foods.remove("Pizza")
+print(foods)
+foods.pop(4)
+print(foods)
+print(len(foods))
+print(foods[0:3])
+print(foods[-2:])
+foods.reverse()
+print(foods)
+foods.sort()
+print(foods)
+
+print("-----------------------------------------------------------------")
+print("                 Q2 — Student Attendance Management              ")
+print("-----------------------------------------------------------------")
+
+students = ["Ali", "Sara", "Ahmed", "Zoha Khan", "Hira"]
+
+print(students[1])
+print(students[-1])
+students[2] = "Hamza"
+print(students)
+students.append("Fatima")
+print(students)
+students.insert(1, "Ayesha")
+print(students)
+students.remove("Sara")
+print(students)
+students.pop(3)
+print(students)
+print(len(students))
+print(students[1:4])
+students.reverse()
+print(students)
+
+print("-----------------------------------------------------------")
+print("                 Q3 — Mobile Prices Analysi                ")
+print("-----------------------------------------------------------")
+
+prices = [45000, 120000, 30000, 85000, 60000]
+
+prices.sort()
+print("Highest Price:",prices[-1])
+print("Lowest Price:",prices[0])
+print("Ascending order:",prices)
+prices.sort(reverse=True)
+print("Descending order:",prices)
+prices.append("50000")
+print(prices)
+prices.remove(30000)
+print(prices)
+prices.pop(4)
+print(prices)
+print(prices[:3])
+print(prices[-2:])
+print(len(prices))
+
+print("------------------------------------------------------------")
+print("                Q4 — Cricket Team Management                ")
+print("------------------------------------------------------------")
+
+players = ["Babar", "Rizwan", "Shaheen", "Naseem", "Shadab"]
+
+print("Captain Name:",players[0])
+print("Last Player:",players[-2])
+players[2] = "Imad"
+print(players)
+players.append("Haris")
+print(players)
+players.insert(2, "Muhammad Waseem")
+print(players)
+players.remove("Naseem")
+print(players)
+print(players[0:4])
+print(players[-3:])
+players.reverse()
+print(players)
+
+print("--------------------------------------------------------------")
+print("                   Q5 — Shopping Cart System                  ")
+print("--------------------------------------------------------------")
+
+cart = ["Shoes", "Watch", "Bag", "Laptop", "Bottle"]
+
+print("First Item:",cart[0])
+print("Last Item:",cart[-1])
+cart[-1] = "Headphones"
+print(cart)
+cart.append("Keyboard")
+print(cart)
+cart.insert(1, "Mouse")
+print(cart)
+cart.remove("Bag")
+print(cart)
+print(cart[-1])
+print(len(cart))
+print(cart[1:4])
+cart.reverse()
+print(cart)
+print("Updated Cart", cart)
+
+print("---------------------------------------------------------------")
+print("                 Q6 — Employee Salary Records                  ")
+print("---------------------------------------------------------------")
+
+salaries = [25000, 40000, 70000, 55000, 90000]
+
+salaries.sort(reverse=True)
+print("Highest Salary:", salaries[0]) 
+salaries.sort()
+print("Lowest Salary:", salaries[0])
+salaries.sort()
+print("Ascending Order:", salaries)
+salaries.sort(reverse=True)
+print("Descending Order:", salaries)
+salaries.append(65000)
+print(salaries)
+salaries.remove(25000)
+print(salaries)
+salaries.sort(reverse=True)
+print(salaries[1])
+print(salaries[:3])
+print(len(salaries))
+print("Final salary list:",salaries)
+
+print("----------------------------------------------------------------")
+print("                  Q7 — Movie Collection System                  ")
+print("----------------------------------------------------------------")
+
+movies = ["Avatar", "Inception", "Joker", "Titanic", "Interstellar"]
+
+print("First Movie:",movies[0])
+print("Last Movie:",movies[-1])
+movies[2] = "Batman"
+print(movies)
+movies.append("Avengers")
+print(movies)
+movies.insert(3, "Frozen")
+print(movies)
+movies.remove("Titanic")
+print(movies)
+movies.pop()
+print(movies)
+print(movies[:3])
+cart.reverse()
+print(movies)
+print("Final Updated Movie Collection",movies)
+
+print("----------------------------------------------------------------")
+print("                  Q8 — Exam Marks Analysis                      ")
+print("----------------------------------------------------------------")
+
+marks = [78, 40, 90, 66, 82]
+
+marks.sort(reverse=True)
+print("Highest Marks:",marks[0])
+marks.sort()
+print("Lowest Marks:",marks[-1])
+print("Ascending order:",marks)
+marks.sort(reverse=True)
+print("Descending order:",marks)
+marks.append(80)
+print(marks)
+marks.remove(40)
+print("Remove Failed Marks:",marks)
+marks.sort(reverse=True)
+print(marks[0:3])
+print(marks[-2:])
+print("Total Subject:",len(marks))
+print("Final Marks List:",marks)
+
+print("-----------------------------------------------------------------")
+print("                  Q9 — Website Visitors Record                   ")
+print("-----------------------------------------------------------------")
+
+visitors = ["Ali", "Sara", "Ahmed", "Zoha Khan", "Hira"]
+
+print("First Visitor Name:",visitors[0])
+print("Last Visitor Name:",visitors[-1])
+visitors.append("Ayesha")
+print(visitors)
+visitors.insert(2, "Zeenat")
+print(visitors)
+visitors.remove("Ahmed")
+print(visitors)
+visitors.pop()
+print(visitors)
+print(visitors[0:3])
+print(visitors[-3:])
+visitors.reverse()
+print(visitors)
+print("Total Visitors:",len(visitors))
+
+print("-----------------------------------------------------------------")
+print("              Q10 — Programming Languages System                 ")
+print("-----------------------------------------------------------------")
+
+languages = ["Python", "JavaScript", "Java", "C++", "PHP"]
+
+print("First language:",languages[0])
+print("Last language:",languages[-1])
+languages[-1] = "TypeScript"
+print(languages)
+languages.append("Go")
+print(languages)
+languages.insert(2, "Rust")
+print(languages)
+languages.remove("JavaScript")
+print(languages)
+print(languages[0:4])
+print(languages[-2:])
+languages.sort()
+print(languages)
+languages.reverse()
+print(languages)
+print("Final Updated List:",languages)
